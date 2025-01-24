@@ -1,0 +1,6 @@
+@RpiLedBackend_HostAddress = http://localhost:5037
+
+GET {{RpiLedBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
